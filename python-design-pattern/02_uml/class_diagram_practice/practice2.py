@@ -26,3 +26,6 @@ class Square(Shape):
 class Client:
     def __init__(self , shape: Shape):
         self.__shape = shape
+        
+    def getShape(self):
+        return self.__shape

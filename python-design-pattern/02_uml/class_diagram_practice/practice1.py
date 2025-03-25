@@ -12,7 +12,7 @@ class Employee:
     
     # get,set
     def getSalary(self) -> int:
-        return self.salary
+        return self.__salary
     
     def setSalary(self, salary) -> None:
-        self.salary = salary
+        self.__salary = salary
